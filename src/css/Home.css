@@ -1,0 +1,32 @@
+.head {
+  padding-top: 5px;
+  padding-left: 20px;
+  border-bottom: 1.5px solid rgb(196, 196, 196);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 150px;
+  background-color: white;
+}
+
+.contents {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .refresh.spin {
+    animation: spin infinite 1s linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
