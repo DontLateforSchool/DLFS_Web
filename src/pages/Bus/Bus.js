@@ -81,13 +81,13 @@ const Bus = () => {
               timeData[item.busStopIdx] === undefined ||
               timeData[item.busStopIdx].remainingFirstTime === null;
             if (item.vehicleNumber !== null) {
-              if (item.congestion === '여유') {
+              if (item.congestion === 'LOW') {
                 img = busIcon_green;
-              } else if (item.congestion === '보통') {
+              } else if (item.congestion === 'NORMAL') {
                 img = busIcon_yellow;
               } else if (
-                item.congestion === '혼잡' ||
-                item.congestion === '만차'
+                item.congestion === 'HIGH' ||
+                item.congestion === 'FULL'
               ) {
                 img = busIcon_red;
               } else {
