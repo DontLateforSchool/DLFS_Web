@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Day from './pages/Day';
-import Board from './pages/Board';
-import BottomNav from './bottomNav/BottomNav';
+import Home from './pages/Bus/Home';
+import Day from './pages/Day/Day';
+import Board from './pages/Board/Board';
+import BottomNav from './pages/bottomNav/BottomNav';
 
 function App() {
   return (

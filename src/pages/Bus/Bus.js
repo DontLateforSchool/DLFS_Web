@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { CircularProgress } from '@mui/material';
-import busIcon_red from '../image/bus_red.png';
-import busIcon_yellow from '../image/bus_yellow.png';
-import busIcon_green from '../image/bus_green.png';
-import busStopIcon1 from '../image/busStopIcon1.png';
-import busStopIcon2 from '../image/busStopIcon2.png';
-import busStopIcon3 from '../image/busStopIcon3.png';
-import refreshIcon from '../image/refresh.png';
+import busIcon_red from '../../image/bus_red.png';
+import busIcon_yellow from '../../image/bus_yellow.png';
+import busIcon_green from '../../image/bus_green.png';
+import busStopIcon1 from '../../image/busStopIcon1.png';
+import busStopIcon2 from '../../image/busStopIcon2.png';
+import busStopIcon3 from '../../image/busStopIcon3.png';
+import refreshIcon from '../../image/refresh.png';
 
 const Bus = () => {
   const [loading, setLoading] = useState(false);
@@ -126,7 +126,7 @@ const Bus = () => {
                   <h3 style={{ marginLeft: 20 }}>
                     {item.busStopName}
                     <br />
-                    <span style={{ fontSize: 14, color: 'gray' }}>
+                    <span style={{ fontSize: 14, color: 'grey' }}>
                       {checkData
                         ? '도착 정보가 없습니다.'
                         : `${timeData[item.busStopIdx].remainingFirstTime}분 (${

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const BusHeader = () => {
   return (
     <div className='head'>
       <p>{'\u00A0'}</p>
@@ -11,4 +11,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default BusHeader;

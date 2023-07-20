@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BottomNav from './bottomNav/BottomNav';
+import BottomNav from './pages/bottomNav/BottomNav';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

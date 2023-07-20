@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
-import '../css/Home.css';
-import Header from './Header';
+import './Home.css';
+import BusHeader from './Bus_Header';
 import Bus from './Bus';
 
 const Home = () => {
   return (
     <div className='home'>
-      <Header></Header>
+      <BusHeader></BusHeader>
       <div className='contents'>
         <Bus></Bus>
       </div>
