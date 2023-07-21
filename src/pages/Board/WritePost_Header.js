@@ -17,7 +17,9 @@ const WritePostHeader = () => {
           style={{ marginTop: 8 }}
           onClick={() => navigate(-1)}
         />
-        <h2 style={{ marginLeft: 20, marginTop: 0 }}>새 글 작성</h2>
+        <h2 style={{ marginLeft: 20, marginTop: 0, marginBottom: 0 }}>
+          새 글 작성
+        </h2>
       </div>
     </div>
   );
